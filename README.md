@@ -12,7 +12,7 @@ TaskManagerApp is a simple command-line task manager application that allows use
 3. **Delete Task**: Remove a specified task from the task list.
 
 ## Project Structure
-
+```
 TaskManagerApp/
 ├── .github/
 │   └── workflows/
@@ -26,7 +26,7 @@ TaskManagerApp/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 - `task_manager/main.py`: The main entry point of the application.
 - `task_manager/tasks.py`: Contains the `TaskManager` class with methods to add, list, and delete tasks.
 - `tests/test_tasks.py`: Unit tests for the `TaskManager` class.
