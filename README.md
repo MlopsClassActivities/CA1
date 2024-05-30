@@ -1,5 +1,5 @@
 
-# TaskManagerApp
+# Class Activity #01: TaskManagerApp
 
 ## Overview
 
@@ -13,11 +13,11 @@ TaskManagerApp is a simple command-line task manager application that allows use
 
 ## Project Structure
 ```
-TaskManagerApp/
+CA1/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
-├── task_manager/
+├── CA1/
 │   ├── __init__.py
 │   ├── main.py
 │   └── tasks.py
@@ -27,8 +27,8 @@ TaskManagerApp/
 ├── README.md
 └── requirements.txt
 ```
-- `task_manager/main.py`: The main entry point of the application.
-- `task_manager/tasks.py`: Contains the `TaskManager` class with methods to add, list, and delete tasks.
+- `CA1/main.py`: The main entry point of the application.
+- `CA1/tasks.py`: Contains the `TaskManager` class with methods to add, list, and delete tasks.
 - `tests/test_tasks.py`: Unit tests for the `TaskManager` class.
 - `.github/workflows/ci.yml`: GitHub Actions workflow for continuous integration.
 
@@ -36,8 +36,8 @@ TaskManagerApp/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/TaskManagerApp.git
-    cd TaskManagerApp
+    git clone https://github.com/your-username/CA1.git
+    cd CA1
     ```
 
 2. Create a virtual environment and activate it:
@@ -55,7 +55,7 @@ TaskManagerApp/
 
 Run the application:
 ```bash
-python -m task_manager.main
+python -m CA1.main
 ```
 
 You will be presented with a menu to add, list, or delete tasks.
@@ -78,7 +78,7 @@ Each feature is developed in its own branch. The branches are named according to
         ```bash
         git checkout member1_roll_no
         ```
-    - Implement the feature in `task_manager/tasks.py`.
+    - Implement the feature in `CA1/tasks.py`.
     - Commit and push your changes:
         ```bash
         git add .
@@ -91,7 +91,7 @@ Each feature is developed in its own branch. The branches are named according to
         ```bash
         git checkout member2_roll_no
         ```
-    - Implement the feature in `task_manager/tasks.py`.
+    - Implement the feature in `CA1/tasks.py`.
     - Commit and push your changes:
         ```bash
         git add .
@@ -104,7 +104,7 @@ Each feature is developed in its own branch. The branches are named according to
         ```bash
         git checkout member3_roll_no
         ```
-    - Implement the feature in `task_manager/tasks.py`.
+    - Implement the feature in `CA1/tasks.py`.
     - Commit and push your changes:
         ```bash
         git add .
